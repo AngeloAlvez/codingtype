@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🚀 CodingType
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Aplicação de teste de digitação de código** - Melhore sua velocidade e precisão na digitação de código com diferentes linguagens de programação!
 
-## Available Scripts
+## ✨ Funcionalidades
 
-In the project directory, you can run:
+- 🎯 **Teste de 1 minuto** com timer em tempo real
+- 💻 **Múltiplas linguagens**: React, Node.js, Java e Swift
+- 📊 **Estatísticas detalhadas**: PPM, precisão, caracteres digitados
+- 🎨 **Logo animado** com efeito de máquina de escrever
+- 📱 **Design responsivo** para desktop e mobile
+- 🔄 **Códigos aleatórios** para prática variada
+- ✅ **Validação em tempo real** com destaque visual
+
+## 🎮 Como usar
+
+1. **Escolha a linguagem** de programação
+2. **Comece a digitar** - o timer inicia automaticamente
+3. **Digite palavra por palavra** - pressione espaço para avançar
+4. **Veja suas estatísticas** no final do teste
+5. **Pratique novamente** com códigos diferentes!
+
+## 🛠️ Tecnologias utilizadas
+
+- **React 19** - Framework principal
+- **CSS3** - Animações e estilização
+- **JavaScript ES6+** - Lógica da aplicação
+- **GitHub Pages** - Deploy e hospedagem
+
+## 🚀 Como executar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/AngeloAlvez/codingtype.git
+
+# Entre no diretório
+cd codingtype
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+npm start
+```
+
+A aplicação estará disponível em `http://localhost:3000`
+
+## 📈 Scripts disponíveis
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Executa a aplicação em modo de desenvolvimento
 
 ### `npm run build`
+Cria build otimizado para produção
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm run deploy`
+Faz deploy para GitHub Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm test`
+Executa os testes da aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Design e UX
 
-### `npm run eject`
+- **Tema roxo elegante** com gradientes suaves
+- **Animação de máquina de escrever** no logo
+- **Feedback visual** para palavras corretas/incorretas
+- **Modal de resultados** com estatísticas completas
+- **Interface intuitiva** e fácil de usar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📊 Estatísticas rastreadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **PPM** (Palavras Por Minuto)
+- **Precisão** de digitação
+- **Caracteres** corretos/incorretos
+- **Códigos completados** durante o teste
+- **Progresso** em tempo real
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Demo online
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Acesse:** [https://AngeloAlvez.github.io/codingtype](https://AngeloAlvez.github.io/codingtype)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido com ❤️ para melhorar suas habilidades de digitação de código!
