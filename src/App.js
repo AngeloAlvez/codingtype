@@ -266,8 +266,8 @@ function App() {
     <div className="App">
       <div className="container">
         <h1 className="logo">
-          <span className="logo-coding">Coding</span>
-          <span className={`logo-type ${hasStartedTyping ? 'typing-started' : ''}`}>Type</span>
+          <span className="logo-coding">typing</span>
+          <span className={`logo-type ${hasStartedTyping ? 'typing-started' : ''}`}>code</span>
         </h1>
         
         <div className="controls">
