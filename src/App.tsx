@@ -7,16 +7,21 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 // Context
-import { TypingProvider } from '@/contexts';
+import { TypingProvider } from './contexts/TypingContext';
 
-
-import {AnimatedLogo, ControlPanel, CodeDisplay, TypingInput, ProgressDisplay, ResultsModal} from '@/components'
+// Components
+import AnimatedLogo from './components/AnimatedLogo';
+import ControlPanel from './components/ControlPanel';
+import CodeDisplay from './components/CodeDisplay';
+import TypingInput from './components/TypingInput';
+import ProgressDisplay from './components/ProgressDisplay';
+import ResultsModal from './components/ResultsModal';
 
 // Theme
-import theme from '@/utils/theme';
+import theme from './utils/theme';
 
 // Custom hook for timer
-import { useTimer } from '@/hooks';
+import { useTimer } from './hooks/useTimer';
 
 const AppContent: React.FC = () => {
   // Initialize timer hook

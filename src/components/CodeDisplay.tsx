@@ -1,8 +1,8 @@
 import React from 'react';
 import { Paper, Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { useTyping } from '@/contexts/TypingContext';
-import { WordStatus } from '@/types';
+import { useTyping } from '../contexts/TypingContext';
+import { WordStatus } from '../types';
 
 const CodePaper = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(3),

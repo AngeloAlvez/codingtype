@@ -1,9 +1,9 @@
 import React from 'react';
 import { TextField, Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { useTyping } from '@/contexts/TypingContext';
-import { useTypingLogic } from '@/hooks/useTypingLogic';
-import { InputStatus } from '@/types';
+import { useTyping } from '../contexts/TypingContext';
+import { useTypingLogic } from '../hooks/useTypingLogic';
+import { InputStatus } from '../types';
 
 interface StyledTextFieldProps {
   inputStatus: InputStatus;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, LinearProgress, Typography, Paper } from '@mui/material';
-import { useTyping } from '@/contexts/TypingContext';
+import { useTyping } from '../contexts/TypingContext';
 
 export const ProgressDisplay: React.FC = () => {
   const { state, getWords } = useTyping();

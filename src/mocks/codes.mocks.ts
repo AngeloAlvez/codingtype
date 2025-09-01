@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { CodeSample } from '@/types';
+import { CodeSample } from '../types';
 
 const codingMock = {
   "data": {

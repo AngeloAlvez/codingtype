@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { useTyping } from '@/contexts/TypingContext';
-import { TYPING_ACTIONS } from '@/contexts/TypingContext';
-import { TimerHook } from '@/types';
+import { useTyping } from '../contexts/TypingContext';
+import { TYPING_ACTIONS } from '../contexts/TypingContext';
+import { TimerHook } from '../types';
 
 export const useTimer = (): TimerHook => {
   const { state, dispatch } = useTyping();

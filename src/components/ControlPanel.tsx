@@ -12,10 +12,10 @@ import {
   SelectChangeEvent
 } from '@mui/material';
 import { Timer, Refresh } from '@mui/icons-material';
-import { useTyping } from '@/contexts/TypingContext';
-import { TYPING_ACTIONS } from '@/contexts/TypingContext';
-import { useTypingLogic } from '@/hooks';
-import { Language } from '@/types';
+import { useTyping } from '../contexts/TypingContext';
+import { TYPING_ACTIONS } from '../contexts/TypingContext';
+import { useTypingLogic } from '../hooks/useTypingLogic';
+import { Language } from '../types';
 
 export const ControlPanel: React.FC = () => {
   const theme = useTheme();

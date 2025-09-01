@@ -1,6 +1,6 @@
-import { useTyping } from '@/contexts/TypingContext';
-import { TYPING_ACTIONS } from '@/contexts/TypingContext';
-import { TypingLogicHook, InputStatus } from '@/types';
+import { useTyping } from '../contexts/TypingContext';
+import { TYPING_ACTIONS } from '../contexts/TypingContext';
+import { TypingLogicHook, InputStatus } from '../types';
 
 export const useTypingLogic = (): TypingLogicHook => {
   const { state, dispatch, getWords } = useTyping();

@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useReducer, ReactNode } from 'react';
-import codingMock from '@/mocks/codes.mocks';
+import codingMock from '../mocks/codes.mocks';
 import { 
   TypingState, 
   TypingAction, 
   TypingContextType, 
   Language
-} from '@/types';
+} from '../types';
 
 // Estados iniciais
 const initialState: TypingState = {

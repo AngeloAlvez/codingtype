@@ -19,8 +19,8 @@ import {
   CheckCircle,
   Code,
 } from '@mui/icons-material';
-import { useTyping } from '@/contexts/TypingContext';
-import { useTypingLogic } from '@/hooks/useTypingLogic';
+import { useTyping } from '../contexts/TypingContext';
+import { useTypingLogic } from '../hooks/useTypingLogic';
 
 interface StatCardProps {
   icon: React.ReactElement;
