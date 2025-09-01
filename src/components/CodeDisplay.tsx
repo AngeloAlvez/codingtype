@@ -25,44 +25,27 @@ interface WordSpanProps {
   status: WordStatus;
 }
 
-const WordSpan = styled('span')<WordSpanProps>(({ theme, status }) => {
-  let styles: React.CSSProperties = {
-    padding: '2px 4px',
-    borderRadius: '3px',
-    fontFamily: 'inherit',
-  };
-
-  switch (status) {
-    case 'correct':
-      styles = {
-        ...styles,
-        backgroundColor: theme.palette.success.main,
-        color: theme.palette.success.contrastText,
-      };
-      break;
-    case 'incorrect':
-      styles = {
-        ...styles,
-        backgroundColor: theme.palette.error.main,
-        color: theme.palette.error.contrastText,
-      };
-      break;
-    case 'current':
-      styles = {
-        ...styles,
-        backgroundColor: theme.palette.warning.light,
-        color: theme.palette.warning.contrastText,
-      };
-      break;
-    default:
-      styles = {
-        ...styles,
-        backgroundColor: 'transparent',
-      };
-  }
-
-  return styles;
-});
+const WordSpan = styled('span')<WordSpanProps>(({ theme, status }) => ({
+  padding: '2px 4px',
+  borderRadius: '3px',
+  fontFamily: 'inherit',
+  ...(status === 'correct' && {
+    backgroundColor: theme.palette.success.main,
+    color: theme.palette.success.contrastText,
+  }),
+  ...(status === 'incorrect' && {
+    backgroundColor: theme.palette.error.main,
+    color: theme.palette.error.contrastText,
+  }),
+  ...(status === 'current' && {
+    backgroundColor: theme.palette.warning.light,
+    color: theme.palette.warning.contrastText,
+  }),
+  ...((status === '' || (!status)) && {
+    backgroundColor: 'transparent',
+    color: theme.palette.text.primary,
+  }),
+}));
 
 export const CodeDisplay: React.FC = () => {
   const { state, getWords } = useTyping();
