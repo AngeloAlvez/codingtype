@@ -1,3 +1,7 @@
+/* eslint-disable no-template-curly-in-string */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { CodeSample } from '@/types';
+
 const codingMock = {
   "data": {
     "react": [
@@ -55,7 +59,8 @@ const codingMock = {
       },
       {
         "id": "react-14",
-        "code": "import React, { Profiler } from 'react';\n\nfunction onRenderCallback(id, phase, actualDuration) {\n  console.log(`${id}'s ${phase} phase took ${actualDuration}ms`);\n}\n\nfunction App() {\n  return (\n    <Profiler id=\"MyComponent\" onRender={onRenderCallback}>\n      <MyComponent />\n    </Profiler>\n  );\n}"
+        // eslint-disable-next-line no-template-curly-in-string
+        "code": "import React, { Profiler } from 'react';\\n\\nfunction onRenderCallback(id, phase, actualDuration) {\\n  console.log(`${id}'s ${phase} phase took ${actualDuration}ms`);\\n}\\n\\nfunction App() {\\n  return (\\n    <Profiler id=\\\"MyComponent\\\" onRender={onRenderCallback}>\\n      <MyComponent />\\n    </Profiler>\\n  );\\n}"
       },
       {
         "id": "react-15",
